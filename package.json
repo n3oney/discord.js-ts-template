@@ -1,0 +1,32 @@
+{
+  "name": "discord.js-ts-template",
+  "version": "1.0.0",
+  "description": "Discord.js bot template using TypeScript and with a command handler.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "cross-env NODE_ENV=development ts-node-dev src/index.ts",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "bot"
+  ],
+  "author": "Michał Minarowski <neoney@pm.me>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.31.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
