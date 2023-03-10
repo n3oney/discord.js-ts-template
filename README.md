@@ -1,5 +1,5 @@
 # discord.js-ts-template
-This is a new version of my *really* old Discord.js template, [n3oney/discord.js-typescript-template](https://github.com/n3oney/discord.js-typescript-template).
+This is a new *(not anymore)* version of my *really* old Discord.js template, [n3oney/discord.js-typescript-template](https://github.com/n3oney/discord.js-typescript-template).
 
 **Discord.js version**: 12
 
